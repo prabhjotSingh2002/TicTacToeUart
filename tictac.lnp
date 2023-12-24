@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "uart0driver.o" "uart1driver.o" "tictactoewin.o" "tictactoetie.o" "tictactoerecord.o" "tictactoemain .o" --strict --scatter "tictac.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\tictac.map" -o "tictac.axf"
